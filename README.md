@@ -1,8 +1,6 @@
-# :boom: react-lazyload-component
-
 <h1 align="center">
   <br>
-    <img src="https://github.com/jsdeveloperr/react-lazyload-component/blob/master/example/public/assets/logo-lazy.gif" alt="logo" width="200">
+    <img src="https://github.com/jsdeveloperr/react-lazyload-component/blob/master/example/public/assets/logo-lazy.gif" alt="logo" width="300">
   <br><br>
   React Lazy Load Component
   <br>
@@ -46,7 +44,7 @@ pnpm add react-lazyload-component
 ### Basic Usage
 ```tsx
 import React from 'react';
-import LazyLoad from 'react-lazy-load';
+import LazyLoad from 'react-lazyload-component';
 
 const MyComponent = () => (
   <div>
