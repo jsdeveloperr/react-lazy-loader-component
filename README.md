@@ -22,7 +22,7 @@ Fast 1.15KB, Gzip 0.63KB, React Component to lazy load and other components/elem
 
 ## :rocket: Example
 
-Check our 👉 [example](https://react-lazyload-component.vercel.app/)
+Check our 👉 [example](https://codesandbox.io/p/sandbox/react-lazy-load-component-m5mkpv)
 
 ## :package: Installation
 
