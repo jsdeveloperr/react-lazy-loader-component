@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 
-const LazyLoad = React.lazy(() => import('../../../src/LazyLoad'));
+import { LazyLoad } from "react-lazy-loader-component";
 
 const GetInTouch = () => {
     return (

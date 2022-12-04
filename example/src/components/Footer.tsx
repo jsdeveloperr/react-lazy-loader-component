@@ -1,4 +1,4 @@
-import { LazyLoad } from "../../../src";
+import { LazyLoad } from "react-lazy-loader-component";
 
 const Footer = () => {
     return (
