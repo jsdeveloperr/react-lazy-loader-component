@@ -1,6 +1,10 @@
+const { join } = require('path');
+
 module.exports = {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    }
+  plugins: {
+    tailwindcss: {
+      config: join(__dirname, 'tailwind.config.cjs'),
+    },
+    autoprefixer: {},
+  },
 }

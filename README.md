@@ -18,7 +18,7 @@
 
 ## :books: Introduction
 
-Fast 1.15kB, Gzip 0.63KB, React Component to lazy load and other components/elements and use the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API).
+Fast 1.15KB, Gzip 0.63KB, React Component to lazy load and other components/elements and use the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API).
 
 ## :rocket: Example
 
