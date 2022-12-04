@@ -1,1 +1,1 @@
-declare module 'react-lazyload-component'
+declare module 'react-lazy-loader-component'

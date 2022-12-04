@@ -33,12 +33,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsdeveloperr/react-lazyload-component.git"
+    "url": "https://github.com/jsdeveloperr/react-lazy-loader-component.git"
   },
   "bugs": {
-    "url": "https://github.com/jsdeveloperr/react-lazyload-component/issues"
+    "url": "https://github.com/jsdeveloperr/react-lazy-loader-component/issues"
   },
-  "homepage": "https://github.com/jsdeveloperr/react-lazyload-component#readme",
+  "homepage": "https://github.com/jsdeveloperr/react-lazy-loader-component#readme",
   "keywords": [
     "react",
     "react-lazy",
@@ -46,6 +46,7 @@
     "react-component",
     "react-lazy-load-component",
     "react-lazyload-component",
+    "react-lazy-loader-component",
     "lazyload",
     "load",
     "lazy"

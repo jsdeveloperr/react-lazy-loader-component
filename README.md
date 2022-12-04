@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-    <img src="https://github.com/jsdeveloperr/react-lazyload-component/blob/master/example/public/assets/logo-lazy.gif" alt="logo" width="300">
+    <img src="https://github.com/jsdeveloperr/react-lazy-loader-component/blob/master/example/public/assets/logo-lazy.gif" alt="logo" width="300">
   <br><br>
   React Lazy Loader Component
   <br>
@@ -9,10 +9,10 @@
 
 <div align="center">
 
-[![npm](https://img.shields.io/npm/v/react-lazyload-component?style=flat-square)](https://www.npmjs.com/package/react-lazyload-component)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-lazyload-component?style=flat-square)
-![npm](https://img.shields.io/npm/dt/react-lazyload-component?style=flat-square)
-![GitHub license](https://img.shields.io/npm/l/react-lazyload-component?style=flat-square)
+[![npm](https://img.shields.io/npm/v/react-lazy-loader-component?style=flat-square)](https://www.npmjs.com/package/react-lazy-loader-component)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-lazy-loader-component?style=flat-square)
+![npm](https://img.shields.io/npm/dt/react-lazy-loader-component?style=flat-square)
+![GitHub license](https://img.shields.io/npm/l/react-lazy-loader-component?style=flat-square)
 
 </div>
 
@@ -22,7 +22,7 @@ Fast 1.15KB, Gzip 0.63KB, React Component to lazy load and other components/elem
 
 ## :rocket: Example
 
-Check our 👉 [example](https://codesandbox.io/p/sandbox/react-lazy-load-component-m5mkpv)
+Check our 👉 [example](https://codesandbox.io/p/sandbox/react-lazy-loader-component-m5mkpv)
 
 ## :package: Installation
 
@@ -37,7 +37,7 @@ pnpm add react-lazy-loader-component
 
 ## Example Repo
 
-- [In Repo](https://github.com/jsdeveloperr/react-lazyload-component/blob/master/example)
+- [In Repo](https://github.com/jsdeveloperr/react-lazy-loader-component/blob/master/example)
 
 ## Examples
 
@@ -45,7 +45,7 @@ pnpm add react-lazy-loader-component
 
 ```tsx
 import React from "react";
-import LazyLoad from "react-lazyload-component";
+import { LazyLoad } from "react-lazy-loader-component";
 
 const MyComponent = () => (
   <LazyLoad>
@@ -57,6 +57,8 @@ const MyComponent = () => (
 ### Loading the image 100px prior to scroll
 
 ```tsx
+import { LazyLoad } from "react-lazy-loader-component";
+
 const MyComponent = () => (
   <LazyLoad rootMargin={100}>
     <img src="https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
@@ -67,6 +69,8 @@ const MyComponent = () => (
 ### Loading image only when 15% of it is in the viewport.
 
 ```tsx
+import { LazyLoad } from "react-lazy-loader-component";
+
 const MyComponent = () => (
   <LazyLoad rootMargin={100} threshold={0.15}>
     <img src="https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
@@ -77,6 +81,8 @@ const MyComponent = () => (
 ### Performing a side effect once your image is loaded
 
 ```tsx
+import LazyLoad from "react-lazy-loader-component";
+
 const MyComponent = () => (
   <LazyLoad rootMargin={400} threshold={0.15} freezeOnceVisible={true}>
     <img src="https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
@@ -88,7 +94,7 @@ const MyComponent = () => (
 
 ```tsx
 import React, { Suspense } from "react";
-const LazyLoad = React.lazy(() => import("react-lazyload-component"));
+const LazyLoad = React.lazy(() => import("react-lazy-loader-component"));
 
 const MyComponent = () => (
   <Suspense fallback={<div>Loading...</div>}>
