@@ -1,7 +1,7 @@
 {
-  "name": "react-lazyload-component",
+  "name": "react-lazy-loader-component",
   "version": "0.1.0",
-  "description": "react lazy load component",
+  "description": "react lazy loader component",
   "author": "Abdulnasır OLCAN",
   "license": "MIT",
   "main": "dist/index.umd.js",

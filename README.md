@@ -2,7 +2,7 @@
   <br>
     <img src="https://github.com/jsdeveloperr/react-lazyload-component/blob/master/example/public/assets/logo-lazy.gif" alt="logo" width="300">
   <br><br>
-  React Lazy Load Component
+  React Lazy Loader Component
   <br>
   <br>
 </h1>
@@ -28,11 +28,11 @@ Check our 👉 [example](https://codesandbox.io/p/sandbox/react-lazy-load-compon
 
 ```bash
 # install with npm
-npm install react-lazyload-component
+npm install react-lazy-loader-component
 # install with yarn
-yarn add react-lazyload-component
+yarn add react-lazy-loader-component
 # install with pnpm
-pnpm add react-lazyload-component
+pnpm add react-lazy-loader-component
 ```
 
 ## Example Repo
