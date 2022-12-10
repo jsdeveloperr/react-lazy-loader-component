@@ -109,7 +109,7 @@ const MyComponent = () => (
 
 #### tag
 
-Type: `ComponentType | keyof JSX.IntrinsicElements`
+Type: `ComponentType | keyof JSX.IntrinsicElements` Default: `div`
 
 The `tag` option allows you to set the html element's tag even when it has no content.
 
