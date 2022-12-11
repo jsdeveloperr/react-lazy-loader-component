@@ -1,3 +1,5 @@
+<a name="read-me-template" />
+
 <h1 align="center">
   <br>
     <img src="https://github.com/jsdeveloperr/react-lazy-loader-component/blob/master/example/public/assets/logo-lazy.gif" alt="logo" width="300">
