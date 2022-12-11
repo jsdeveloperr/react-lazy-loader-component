@@ -74,7 +74,7 @@ const MyComponent = () => (
 import { LazyLoad } from "react-lazy-loader-component";
 
 const MyComponent = () => (
-  <LazyLoad rootMargin={100} threshold={0.15}>
+  <LazyLoad rootMargin={100} threshold={0.95}>
     <img src="https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
   </LazyLoad>
 );
@@ -83,10 +83,10 @@ const MyComponent = () => (
 #### 🗂 Performing a side effect once your image is loaded
 
 ```tsx
-import LazyLoad from "react-lazy-loader-component";
+import { LazyLoad } from "react-lazy-loader-component";
 
 const MyComponent = () => (
-  <LazyLoad rootMargin={400} threshold={0.15} freezeOnceVisible={true}>
+  <LazyLoad rootMargin={400} threshold={0.95} freezeOnceVisible={true}>
     <img src="https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
   </LazyLoad>
 );
@@ -96,7 +96,7 @@ const MyComponent = () => (
 
 ```tsx
 import React, { Suspense } from "react";
-const LazyLoad = React.lazy(() => import("react-lazy-loader-component"));
+import { LazyLoad } from "react-lazy-loader-component";
 
 const MyComponent = () => (
   <Suspense fallback={<div>Loading...</div>}>
