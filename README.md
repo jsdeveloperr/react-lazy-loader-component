@@ -16,15 +16,15 @@
 
 </div>
 
-## :books: Introduction
+### :books: Introduction
 
 Fast 1.15KB, Gzip 0.63KB, React Component to lazy load and other components/elements and use the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API).
 
-## :rocket: Example
+### :rocket: Example
 
 Check our 👉 [example](https://codesandbox.io/p/sandbox/react-lazy-loader-component-m5mkpv)
 
-## :package: Installation
+### :package: Installation
 
 ```bash
 # install with npm
@@ -35,13 +35,13 @@ yarn add react-lazy-loader-component
 pnpm add react-lazy-loader-component
 ```
 
-## :rocket: Example Repo
+### :rocket: Example Repo
 
 - [In Repo](https://github.com/jsdeveloperr/react-lazy-loader-component/blob/master/example)
 
-## 📦 Examples
+### 📦 Examples
 
-### 🗂 Basic Usage
+#### 🗂 Basic Usage
 
 ```tsx
 import React from "react";
@@ -54,7 +54,7 @@ const MyComponent = () => (
 );
 ```
 
-### 🗂 Loading the image 100px prior to scroll
+#### 🗂 Loading the image 100px prior to scroll
 
 ```tsx
 import { LazyLoad } from "react-lazy-loader-component";
@@ -66,7 +66,7 @@ const MyComponent = () => (
 );
 ```
 
-### 🗂 Loading image only when 15% of it is in the viewport.
+#### 🗂 Loading image only when 15% of it is in the viewport.
 
 ```tsx
 import { LazyLoad } from "react-lazy-loader-component";
@@ -78,7 +78,7 @@ const MyComponent = () => (
 );
 ```
 
-### 🗂 Performing a side effect once your image is loaded
+#### 🗂 Performing a side effect once your image is loaded
 
 ```tsx
 import LazyLoad from "react-lazy-loader-component";
@@ -90,7 +90,7 @@ const MyComponent = () => (
 );
 ```
 
-### 🗂 Suspense and Lazy import
+#### 🗂 Suspense and Lazy import
 
 ```tsx
 import React, { Suspense } from "react";
@@ -105,58 +105,58 @@ const MyComponent = () => (
 );
 ```
 
-## 🎉 Props
+### 🎉 Props
 
-#### ✏️ tag
+##### ✏️ tag
 
 Type: `ComponentType | keyof JSX.IntrinsicElements` Default: `div`
 
 The `tag` option allows you to set the html element's tag even when it has no content.
 
-#### ✏️ rootMargin
+##### ✏️ rootMargin
 
 Type: `String` Default: `0%`
 
 The `rootMargin` option allows you to specify how far below, above, to the left, and to the right of the viewport you want to _begin_ displaying your content. If you specify `0`, your content will be displayed as soon as it is visible in the viewport, if you want to load _100px_ below or above the viewport, use `100`.
 
-#### ✏️ threshold
+##### ✏️ threshold
 
 Type: `number | number[]` Default: `0`
 
 This `threshold` option allows you to specify how much of the element must be shown on the screen prior to loading. This requires a _width_ and _height_ to be set on the `<LazyLoad>` component in order for the browser to calcualte the viewable area.
 
-#### ✏️ className
+##### ✏️ className
 
 Type: `String`
 
 The `className` option allows you to set the element's className even when it has no content.
 
-#### ✏️ style
+##### ✏️ style
 
 Type: `CSSProperties`
 
 The `style` option allows you to set the element's style even when it has no content.
 
-#### ✏️ freezeOnceVisible
+##### ✏️ freezeOnceVisible
 
 Type `Boolean`
 
 A Boolean to execute when the content appears on the screen.
 
-## 🔥 Building LazyLoad
+### 🔥 Building LazyLoad
 
 ```
 pnpm build
 ```
 
-## 🌈 Running examples
+### 🌈 Running examples
 
 ```
 cd example
 pnpm dev
 ```
 
-## 📄 License
+### 📄 License
 
 <div calign="center">
     🍁 MIT Licensed | Copyright © 2022-present Abdulnasır Olcan and @ReactLazyLoadComponent contributors
